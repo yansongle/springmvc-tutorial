@@ -1,5 +1,21 @@
-���ļ��ı����ʽδ�����ģ�ΪĬ�ϵ�GB2312
+本文件的编码格式未做更改，为默认的GB2312
+#在浏览器上对此文件做更改
+虽然第一次在本次创建文件的时候的文件默认编码格式为GB2312，
+上传到github上依旧可以正常显示。所以，不是必须要将上传的文件的编码格式改为UTF-8;
+tips：
+在浏览器上对此文件做了修改，所以在本次继续更改此文件的时候需要首先更显代码  git pull 是更新本地代码的命令
+
+$ git push origin master
+To github.com:yansongle/springmvc-tutorial.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:yansongle/springmvc-tutorial.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 
-��������϶��ļ������޸�֮��û��ֱ�Ӷ��ļ����и���(pull)�Ϳ�ʼ��������ļ�
-�������ύ�����ʱ��ͻ������ͻ
+
+git pull origin master
+git push origin master
